@@ -322,7 +322,7 @@ html {
 /* 标题应该更贴紧内容，并与其他块区分，margin 值要相应做优化 */
 #write h1, #write h2, #write h3, #write h4, #write h5, #write h6,
 #write-h1, #write-h2, #write-h3, #write-h4, #write-h5, #write-h6 {
-  margin-top: 1.2em;
+  margin-top: 0.3em;
   margin-bottom: 0.6em;
   line-height: 1.35;
   color: #000;
@@ -343,7 +343,7 @@ html {
 }
 
 #write h4, #write-h4 {
-  font-size: 1.4em;
+  font-size: 1.3em;
 }
 
 #write h5, #write h6, #write-h5, #write-h6 {
