@@ -4,7 +4,7 @@
   --active-file-bg-color: #dadada;
   --active-file-bg-color: rgba(32, 43, 51, 0.63);
   --active-file-text-color: white;
-  --bg-color: #fff;
+  --bg-color: #fefefe;
   --text-color: #333;
   --side-bar-bg-color: #f5f5f5;
   --control-text-color: #666;
@@ -13,11 +13,11 @@
 /* 防止用户自定义背景颜色对网页的影响，添加让用户可以自定义字体 */
 html {
   color: #333;
-  background: #fff;
+  background: #fefefe;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   text-rendering: optimizelegibility;
-  font-size: 14px;
+  font-size: 18px;
   -webkit-font-smoothing: initial;
 }
 
@@ -28,7 +28,7 @@ html {
   padding-right: 60px;
   min-height: calc(100vh - 6em);
   -webkit-font-smoothing: antialiased;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .typora-node #write {
@@ -36,7 +36,7 @@ html {
 }
 
 pre.md-meta-block {
-  background: #f5f5f5;
+  background: #6A6A6A;
   padding: 1em;
   border-radius: 3px;
   font-size: 14px;
@@ -56,19 +56,19 @@ pre.md-meta-block {
 
 @media screen and (min-width: 1100px) {
     body, #footer-word-count-info {
-      background: #f5f5f5;
+      background: #6A6A6A;
     }
 
     body.pin-outline,
     .pin-outline #footer-word-count-info,
     .pin-outline footer {
-      background: #fff;
+      background: #fefefe;
     }
 
     #write {
       max-width: 1000px;
       padding: 40px 60px;
-      background: #fff;
+      background: #fefefe;
       margin: 3em auto 3em;
       border: 1px solid #ddd;
       border-width: 0 1px;
@@ -76,7 +76,7 @@ pre.md-meta-block {
 
     .pin-outline #write {
       max-width: 1000px;
-      background: #fff;
+      background: #fefefe;
       margin: 0 0 0;
       border: 0;
       padding-left: 60px;
@@ -92,13 +92,13 @@ pre.md-meta-block {
     body.pin-outline,
     .pin-outline #footer-word-count-info,
     .pin-outline footer {
-      background: #f5f5f5;
+      background: #6A6A6A;
     }
 
     .pin-outline  #write {
       max-width: 1000px;
       padding: 40px 60px;
-      background: #fff;
+      background: #fefefe;
       margin: 3em auto 3em;
       border: 1px solid #ddd;
       border-width: 0 1px;
@@ -109,7 +109,7 @@ pre.md-meta-block {
     }
 
     #footer-word-count-info {
-      background: #f5f5f5;
+      background: #6A6A6A;
     }
 }
 
@@ -274,7 +274,7 @@ ins, a {
 
 /* 标记，类似于手写的荧光笔的作用 */
 mark {
-  background: #fffdd1;
+  background: #fefefedd1;
   border-bottom: 1px solid #ffedce;
   padding: 2px;
   margin: 0 5px;
@@ -516,7 +516,7 @@ a.md-toc-inner {
 }*/
 
 /*.cm-s-typora-default .cm-header, .cm-s-typora-default .cm-property {
-  color: #fffff1;
+  color: #fefefeff1;
 }
 
 .cm-s-typora-default .cm-link {
@@ -538,7 +538,7 @@ a.md-toc-inner {
 }
 
 .typora-sourceview-on .CodeMirror-cursor {
-  border-left: 3px solid #ffffd6;
+  border-left: 3px solid #fefefefd6;
 }
 
 .typora-sourceview-on #toggle-sourceview-btn {

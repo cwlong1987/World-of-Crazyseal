@@ -4,7 +4,7 @@
   --active-file-bg-color: #dadada;
   --active-file-bg-color: rgba(32, 43, 51, 0.63);
   --active-file-text-color: white;
-  --bg-color: #fff;
+  --bg-color: #C7EDCC;
   --text-color: #333;
   --side-bar-bg-color: #f5f5f5;
   --control-text-color: #666;
@@ -13,13 +13,14 @@
 /* 防止用户自定义背景颜色对网页的影响，添加让用户可以自定义字体 */
 html {
   color: #333;
-  background: #fff;
+  background: #C7EDCC;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   text-rendering: optimizelegibility;
-  font-size: 14px;
+  font-size: 18px;
   -webkit-font-smoothing: initial;
 }
+
 
 #write {
   max-width: 960px;
@@ -28,7 +29,7 @@ html {
   padding-right: 60px;
   min-height: calc(100vh - 6em);
   -webkit-font-smoothing: antialiased;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .typora-node #write {
@@ -36,7 +37,7 @@ html {
 }
 
 pre.md-meta-block {
-  background: #f5f5f5;
+  background: #6A6A6A;
   padding: 1em;
   border-radius: 3px;
   font-size: 14px;
@@ -56,13 +57,13 @@ pre.md-meta-block {
 
 @media screen and (min-width: 1100px) {
     body, #footer-word-count-info {
-      background: #f5f5f5;
+      background: #6A6A6A;
     }
 
     body.pin-outline,
     .pin-outline #footer-word-count-info,
     .pin-outline footer {
-      background: #fff;
+      background: #C7EDCC;
     }
 
     #write {
@@ -76,7 +77,7 @@ pre.md-meta-block {
 
     .pin-outline #write {
       max-width: 1000px;
-      background: #fff;
+      background: #C7EDCC;
       margin: 0 0 0;
       border: 0;
       padding-left: 60px;
@@ -92,13 +93,13 @@ pre.md-meta-block {
     body.pin-outline,
     .pin-outline #footer-word-count-info,
     .pin-outline footer {
-      background: #f5f5f5;
+      background: #6A6A6A;
     }
 
     .pin-outline  #write {
       max-width: 1000px;
       padding: 40px 60px;
-      background: #fff;
+      background: #C7EDCC;
       margin: 3em auto 3em;
       border: 1px solid #ddd;
       border-width: 0 1px;
@@ -109,7 +110,7 @@ pre.md-meta-block {
     }
 
     #footer-word-count-info {
-      background: #f5f5f5;
+      background: #6A6A6A;
     }
 }
 
@@ -139,15 +140,15 @@ audio, canvas, video {
 
 /* 要注意表单元素并不继承父级 font 的问题 */
 body, button, input, select, textarea {
-  font: 300 1em/1.8 "PingFang SC", "Lantinghei SC", "Microsoft Yahei", "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;
+  font: 300 1em/1.8 "Vollkorn","Microsoft Yahei","PingFang SC", "Lantinghei SC",  "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;
 }
 
 body {
-  font-family: "PingFang SC", "Lantinghei SC", "Microsoft Yahei", "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;
+  font-family: "Vollkorn","Microsoft Yahei","PingFang SC", "Lantinghei SC",  "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "TimesNewRomanPS-ItalicMT", "PingFang SC", "Lantinghei SC", "Microsoft Yahei", "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;
+  font-family:"Vollkorn","Microsoft Yahei", "TimesNewRomanPS-ItalicMT", "PingFang SC", "Lantinghei SC",  "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;
   /*font-family: "PingFang SC", "Lantinghei SC", "Microsoft Yahei", "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;*/
   -webkit-font-smoothing: initial;
   font-weight: 100;
@@ -274,7 +275,7 @@ ins, a {
 
 /* 标记，类似于手写的荧光笔的作用 */
 mark {
-  background: #fffdd1;
+  background: #C7EDCCdd1;
   border-bottom: 1px solid #ffedce;
   padding: 2px;
   margin: 0 5px;
@@ -316,7 +317,7 @@ hr {
 }
 
 html {
-  font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+  font-family:Vollkorn,Microsoft Yahei, PingFang SC, Verdana, Helvetica Neue,  Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
 }
 
 /* 标题应该更贴紧内容，并与其他块区分，margin 值要相应做优化 */
@@ -516,7 +517,7 @@ a.md-toc-inner {
 }*/
 
 /*.cm-s-typora-default .cm-header, .cm-s-typora-default .cm-property {
-  color: #fffff1;
+  color: #C7EDCCff1;
 }
 
 .cm-s-typora-default .cm-link {
@@ -538,7 +539,7 @@ a.md-toc-inner {
 }
 
 .typora-sourceview-on .CodeMirror-cursor {
-  border-left: 3px solid #ffffd6;
+  border-left: 3px solid #C7EDCCfd6;
 }
 
 .typora-sourceview-on #toggle-sourceview-btn {
